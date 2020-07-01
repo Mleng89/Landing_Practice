@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 .logo {
 	fill: white;
 	height: 4em;
@@ -9,6 +12,7 @@
 	margin-bottom: 0;
 	color: #ffffff;
 	font-size: 18px;
+	width: 100em;
 }
 form {
 	margin: 1rem 20rem;

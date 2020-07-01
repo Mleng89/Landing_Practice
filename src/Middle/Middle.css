@@ -1,15 +1,25 @@
+body {
+	margin: 0;
+}
 .middle-car-block {
+	width: 100%;
 	display: flex;
 	background-color: #f3f3f5;
-	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: .9375rem;
-	padding-right: .9375rem;
 }
 
 .no-car-text {
 	color: #373a3c;
 	margin: 1rem 20rem;
 	margin-bottom: 1%;
+}
+h2 {
+	font-size: 45px;
+	margin-bottom: 0;
+}
+h3 {
+	margin-top: 0;
+	font-size: 20px;
+}
+.list-items {
+	font-size: 30px;
 }
