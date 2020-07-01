@@ -1,13 +1,6 @@
 body {
-	background-color: #785ef0;
 	line-height: 1.25;
 	letter-spacing: -.3px;
 	font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
 	display: flex;
-}
-.logo {
-	fill: white;
-	height: 2em;
-	width: 2em;
-	margin: 2% 5%;
 }

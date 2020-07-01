@@ -1,8 +1,8 @@
 import React, { Fragment, Component } from 'react';
-import Style from './App.css';
-import Logo from './SVG';
+import Style from './Top.css';
+import Logo from '../SVG';
 
-export class Form extends Component {
+export class Page extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -16,8 +16,8 @@ export class Form extends Component {
 	render() {
 		return (
 			<Fragment>
-				<Logo className="logo" />
 				<header className="head-container">
+					<Logo className="logo" />
 					<h1>Drive toward what matters.</h1>
 					<p className="text-container">Sign up to drive</p>
 					<p className="text-container">
@@ -57,4 +57,4 @@ export class Form extends Component {
 	}
 }
 
-export default Form;
+export default Page;

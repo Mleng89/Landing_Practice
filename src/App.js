@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react';
 import './App.css';
-import Form from './Form';
+import Top from './Top/Top';
+import Middle from './Middle/Middle';
 
 function App() {
 	return (
 		<Fragment>
-			<Form />
+			<Top />
+			<Middle />
 		</Fragment>
 	);
 }
