@@ -1,10 +1,53 @@
 .logo {
 	fill: white;
-	height: 2em;
-	width: 2em;
+	height: 4em;
+	width: 4em;
 	margin: 2% 5%;
 }
-
-body {
+.header-container {
 	background-color: #785ef0;
+	margin-bottom: 0;
+	color: #ffffff;
+	font-size: 18px;
+}
+form {
+	margin: 1rem 20rem;
+	margin-bottom: 1%;
+}
+.head-container {
+	margin: 1rem 20rem;
+	margin-bottom: 1%;
+	flex-flow: column wrap;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.radio-button {
+	width: 3%;
+	height: 30px;
+}
+.phone-number-box {
+	border-radius: 10px;
+	width: 200px;
+	height: 30px;
+}
+.agree-checkbox {
+	width: 30px;
+	height: 30px !important;
+	background-color: #5b46bb;
+	border: solid white;
+	margin: 1% 1.5%;
+}
+.next-button {
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	box-shadow: 5px 5px #5843b1;
+	position: relative;
+	margin-top: 1%;
+	left: 2%;
+	line-height: 1.5;
+	font-size: 20px;
 }

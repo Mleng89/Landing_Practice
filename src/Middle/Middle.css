@@ -1,4 +1,15 @@
 .middle-car-block {
 	display: flex;
 	background-color: #f3f3f5;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .9375rem;
+	padding-right: .9375rem;
+}
+
+.no-car-text {
+	color: #373a3c;
+	margin: 1rem 20rem;
+	margin-bottom: 1%;
 }

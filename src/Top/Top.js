@@ -15,9 +15,9 @@ export class Page extends Component {
 	}
 	render() {
 		return (
-			<Fragment>
+			<div className="header-container">
+				<Logo className="logo" />
 				<header className="head-container">
-					<Logo className="logo" />
 					<h1>Drive toward what matters.</h1>
 					<p className="text-container">Sign up to drive</p>
 					<p className="text-container">
@@ -40,19 +40,19 @@ export class Page extends Component {
 							onChange={this.handleChange}
 							required
 						/>
-						<input type="checkbox" name="agree" required /> I agree to {''}
+						<input className="agree-checkbox" type="checkbox" name="agree" required /> I agree to {''}
 						<a target="_self" href="#">
 							Terms of Service
 						</a>
 						<br />
-						<button>Next</button>
+						<button className="next-button">Next</button>
 						<p>Already applied?</p>
 						<a target="_self" href="#">
 							Check the status of your application here
 						</a>
 					</form>
 				</main>
-			</Fragment>
+			</div>
 		);
 	}
 }
