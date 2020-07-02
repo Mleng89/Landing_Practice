@@ -17,6 +17,7 @@ function Middle() {
 					<li>Cut Costs</li>
 					<p>Insurance and standard maintenance are always included.</p>
 					<img className="list-items__img" src="https://cdn.lyft.com/brochure/limit.d8021f2a.png" />
+
 					<li>Unlimited Lyft Miles</li>
 					<p>Drive unlimited miles for Lyft and get extra miles for personal use.</p>
 				</ul>
