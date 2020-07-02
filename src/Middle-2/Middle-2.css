@@ -3,25 +3,35 @@ body {
 }
 .middle-container {
 	width: 100%;
-	flex-flow: column;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 	background-color: #ffffff;
-	margin-top: 0;
-	padding: 0;
 }
-h2 {
-	font-size: 45px;
-	margin-bottom: 0;
-}
-ul {
+.middle-container__text {
 	margin: 1rem 20rem;
 	margin-bottom: 1%;
 }
+h2 {
+	/* font-size: 45px; */
+	margin-bottom: 0;
+}
+.middle-container__imgtext {
+	margin: 1rem 0;
+	margin-bottom: 1%;
+}
 li {
-	font-size: 20px;
+	/* font-size: 20px; */
 	font-weight: bold;
 	list-style-type: none;
 }
 
 p {
 	font-size: 15px;
+}
+
+img {
+	width: 40px;
+	height: 40px;
 }

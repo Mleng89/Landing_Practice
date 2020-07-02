@@ -10,13 +10,13 @@ function Middle() {
 			</section>
 			<div className="list-items">
 				<ul>
-					<img src="https://cdn.lyft.com/brochure/car.d76afe6e.png" />
+					<img className="list-items__img" src="https://cdn.lyft.com/brochure/car.d76afe6e.png" />
 					<li>Drive your way</li>
 					<p>Get a car any time—and return it when you want.</p>
-					<img src="https://cdn.lyft.com/brochure/cost.3832c00c.png" />
+					<img className="list-items__img" src="https://cdn.lyft.com/brochure/cost.3832c00c.png" />
 					<li>Cut Costs</li>
 					<p>Insurance and standard maintenance are always included.</p>
-					<img src="https://cdn.lyft.com/brochure/limit.d8021f2a.png" />
+					<img className="list-items__img" src="https://cdn.lyft.com/brochure/limit.d8021f2a.png" />
 					<li>Unlimited Lyft Miles</li>
 					<p>Drive unlimited miles for Lyft and get extra miles for personal use.</p>
 				</ul>

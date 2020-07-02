@@ -14,7 +14,7 @@ body {
 	color: #ffffff;
 	font-size: 18px;
 	width: 100%;
-	flex-flow: column;
+	flex-flow: row wrap;
 }
 form {
 	margin: 1rem 20rem;
@@ -23,7 +23,6 @@ form {
 .head-container {
 	margin: 1rem 20rem;
 	margin-bottom: 1%;
-	flex-flow: column wrap;
 }
 
 h1 {
