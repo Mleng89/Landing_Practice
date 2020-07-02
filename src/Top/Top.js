@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
 import Style from './Top.css';
 import Logo from '../SVG';
 
